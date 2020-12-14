@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            #saveTabs{
+                height: 60px;
+                width: 140px;
+                background-color: #B2FF66;
+                text-align: center;
+                line-height: 60px;
+                font-size: 18px;
+                font-weight: bold;
+                display: flex;
+                justify-content: center;
+                margin: 50px;
+            }
+
+            #HelperInfo{
+                height: 100px;
+                width: 240px;
+                background-color: azure;
+                text-align: left;
+                font-size: 15px;
+                border-color: black;
+                border: dashed 1px;
+                line-height: 22px;
+                padding: 6px;
+            }
+
+            #FeedbackBlock{
+                height: 140px;
+                width: 240px;
+                background-color: honeydew;
+                text-align: left;
+                font-size: 15px;
+                border-color: black;
+                border: dashed 1px;
+                padding: 6px;
+            }
+
+            #FeedbackInfo{
+                text-align: left;
+                font-size: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="HelperInfo">[Helper] 点击SAVE按钮后，可以将本窗口的网页信息下载，以.json格式保存在您的下载路径中。</div>
+        <div id="saveTabs">SAVE</div>
+        <div id="FeedbackBlock">[Attention] 本区域显示提示信息：
+            <div id="FeedbackInfo"></div>
+        </div>
+        <script src="popup.js"></script>
+    </body>
+</html>
