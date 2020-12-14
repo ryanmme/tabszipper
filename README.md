@@ -2,6 +2,8 @@
 ------
 Chrome extension to locally store your tabs information.
 
+** This extension is under development right NOW. More Features Upcoming! **
+
 Pack the files as instructed by Chrome Extension Store:
 
 ```
